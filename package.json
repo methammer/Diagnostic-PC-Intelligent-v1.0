@@ -1,0 +1,19 @@
+{
+  "name": "pc-diagnostic-intelligent-monorepo",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Application web et agent de collecte pour un Assistant de Diagnostic PC Intelligent",
+  "scripts": {
+    "dev:frontend": "npm run dev --workspace=frontend",
+    "dev:backend": "npm run dev --workspace=backend",
+    "dev": "npm run dev:frontend & npm run dev:backend"
+  },
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "author": "Bolt AI",
+  "devDependencies": {
+    "typescript": "~5.7.2"
+  }
+}

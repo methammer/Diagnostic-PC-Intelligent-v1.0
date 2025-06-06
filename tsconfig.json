@@ -1,0 +1,13 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./frontend/tsconfig.app.json" },
+    { "path": "./backend/tsconfig.json" }
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./frontend/src/*"] // Adjusted for potential root-level imports if ever needed
+    }
+  }
+}
