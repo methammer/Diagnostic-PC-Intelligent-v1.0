@@ -1,4 +1,4 @@
- # Diagnostic-PC-Intelligent
+# Diagnostic-PC-Intelligent
 
 Diagnostic-PC-Intelligent is an innovative tool designed to help users diagnose and understand potential issues with their Windows PC. It combines local data collection with powerful AI analysis to provide insightful reports and a conversational interface for further inquiries.
 
